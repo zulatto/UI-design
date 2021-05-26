@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #161616;
+  background: #161626;
 }
 body::before {
   content: "";
@@ -75,4 +75,21 @@ body::after {
   font-size: 1.8em;
   color: white;
   z-index: 1;
+}
+.content .card .content p {
+  font-size: 1em;
+  color: white;
+  font-weight: 300;
+}
+a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: white;
+  color: #222;
+  border-radius: 18px;
+  text-decoration: none;
+  font-weight: 400;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
